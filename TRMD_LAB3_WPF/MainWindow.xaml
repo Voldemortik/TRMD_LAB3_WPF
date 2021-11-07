@@ -1,0 +1,53 @@
+﻿<Window x:Class="TRMD_LAB3_WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TRMD_LAB3_WPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Menu Height="25" VerticalAlignment="Top">
+            <MenuItem Header="Тестування">
+                <MenuItem x:Name="реєстраціяToolStripMenuItem" Header="Реєстрація" Click="реєстраціяToolStripMenuItem_Click"></MenuItem>
+                <MenuItem x:Name="вхідToolStripMenuItem1" Header="Вхід" Click="вхідToolStripMenuItem1_Click"></MenuItem>
+                <MenuItem x:Name="отриманняДанихToolStripMenuItem" Header="Отримання даних" Click="отриманняДанихToolStripMenuItem_Click"></MenuItem>
+                <MenuItem x:Name="вихідToolStripMenuItem" Header="Вихід" Click="вихідToolStripMenuItem_Click"></MenuItem>
+            </MenuItem>
+        </Menu>
+        <Label x:Name="Login_Label1" Content="Введіть логін" HorizontalAlignment="Left" Margin="215,92,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="Login_label2" Content="Введіть пароль" HorizontalAlignment="Left" Margin="215,158,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="Login_button1" Content="Увійти" HorizontalAlignment="Left" Margin="215,230,0,0" VerticalAlignment="Top" Height="50" Width="373" Click="Login_button1_Click_1"/>
+        <TextBox x:Name="Login_textBox1" HorizontalAlignment="Left" Margin="215,123,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="373"/>
+        <TextBox x:Name="Login_textBox2" HorizontalAlignment="Left" Margin="215,189,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="373"/>
+        <Label x:Name="Register_label1" Content="Логін" HorizontalAlignment="Left" Margin="81,100,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="Register_label2" Content="Пароль" HorizontalAlignment="Left" Margin="81,145,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="Register_label3" Content="Дата народження" HorizontalAlignment="Left" Margin="81,198,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="Register_label4" Content="Стать" HorizontalAlignment="Left" Margin="81,254,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="Register_textBox1" HorizontalAlignment="Left" Margin="81,127,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="Register_textBox2" HorizontalAlignment="Left" Margin="81,175,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="Register_textBox4" HorizontalAlignment="Left" Margin="81,285,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="Register_button1" Content="Зареєструватись" HorizontalAlignment="Left" Margin="65,330,0,0" VerticalAlignment="Top" Height="54" Width="335" Click="Register_button1_Click_1"/>
+        <Label x:Name="Filter_label4" Content="Логін" HorizontalAlignment="Left" Margin="82,100,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="Filter_label3" Content="Дата реєстрації" HorizontalAlignment="Left" Margin="82,145,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="Filter_label2" Content="Дата народження" HorizontalAlignment="Left" Margin="82,198,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="Filter_label1" Content="Стать" HorizontalAlignment="Left" Margin="82,254,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="Filter_textBox5" HorizontalAlignment="Left" Margin="82,127,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="Filter_textBox6" HorizontalAlignment="Left" Margin="82,285,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="Filter_button1" Content="Отримати дані" HorizontalAlignment="Left" Margin="64,330,0,0" VerticalAlignment="Top" Height="54" Width="336" Click="Filter_button1_Click_1"/>
+        <CheckBox x:Name="Filter_checkBox1" Content="CheckBox" HorizontalAlignment="Left" Margin="226,130,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="Filter_checkBox2" Content="CheckBox" HorizontalAlignment="Left" Margin="226,178,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.433,4.473"/>
+        <CheckBox x:Name="Filter_checkBox3" Content="CheckBox" HorizontalAlignment="Left" Margin="226,226,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.433,4.473"/>
+        <CheckBox x:Name="Filter_checkBox4" Content="CheckBox" HorizontalAlignment="Left" Margin="226,286,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.433,4.473"/>
+        <DatePicker x:Name="Register_dateTimePicker1" HorizontalAlignment="Left" Margin="81,229,0,0" VerticalAlignment="Top" Width="120"/>
+        <DatePicker x:Name="Filter_dateTimePicker1" HorizontalAlignment="Left" Margin="82,176,0,0" VerticalAlignment="Top" Width="120"/>
+        <DatePicker x:Name="Filter_dateTimePicker2" HorizontalAlignment="Left" Margin="82,222,0,0" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="Message_label1" Content="Label" HorizontalAlignment="Center" Margin="0,46,0,0" VerticalAlignment="Top"/>
+
+
+
+
+
+
+    </Grid>
+</Window>
